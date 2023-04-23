@@ -1,0 +1,14 @@
+GET http://localhost:8888/exchanges/GBP/2019-11-29
+###
+GET http://localhost:8888/exchanges/GBP/2019-11-30
+###
+
+GET http://localhost:8888/exchanges/GBP/minmax/12
+###
+GET http://localhost:8888/exchanges/GBP/minmax/256
+###
+
+GET http://localhost:8888/exchanges/GBP/diff/19
+###
+GET http://localhost:8888/exchanges/GBP/diff/256
+###
