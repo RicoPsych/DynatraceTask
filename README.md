@@ -7,7 +7,7 @@ mvn spring-boot:run
 ```
 Docker:
 ```
-docker run -p 8888:8888 ricopsych/dynatracetask:v1
+docker run -p 8888:8888 ricopsych/dynatracetask:final
 ```
 VSCode:
 open project, navigate to Application.java and Debug.
