@@ -1,8 +1,30 @@
 <html>
+    <head>
+        <script src="script.js" async="async"></script> 
+        <meta name="author" content="Hubert Nacmer"/>
+        <title>Task</title>
+    </head>
 <body>
-<h1>
+    <h1>
+        Dynatrace Task
+    </h1>
+    <form id ="diff">
+        <label for="curr">Currency Code:</label>
+        <input id="curr" name="curr"/><br/>
+        <label for="amount">Amount:</label> 
+        <input id="amount" name="amount" type="number"/>
 
-</h1>
+        <button type="submit" onclick="getMajorDifference()">Major Difference</button>
+        <button type="submit" onclick="getMinMax()">Min and Max Values</button>
+        <br/>
+
+        <label for="date">Date:</label> 
+        <input id="date" name="date" type="date"/>
+        <button type="submit" onclick="getAvgOnDay()">Average Exchange Rate on Day</button>
+    </form>
+
+    
+    <p>Result: <b id ="result"></b></p>
 
 </body>
 
